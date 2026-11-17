@@ -1,6 +1,6 @@
 # Oracle AI Skills (free starter set)
 
-Three skills that make an AI coding assistant better at Oracle work — written
+Four skills that make an AI coding assistant better at Oracle work — written
 as a senior Oracle developer would brief a new team member, and tested where
 they could be run.
 
@@ -9,6 +9,7 @@ they could be run.
 | [`oracle-apex`](skills/oracle-apex/SKILL.md) | Page patterns, region choice, the slot contract, accessibility non-negotiables, the traps that cost the most time, and a done-checklist (APEX 26.1) |
 | [`plsql`](skills/plsql/SKILL.md) | Schema-first generation, package structure, error handling that does not hide failures, autonomous audit, concurrency, bulk — traps measured on Oracle AI Database 26ai |
 | [`forms-to-apex`](skills/forms-to-apex/SKILL.md) | Source extraction, inventory, trigger→APEX mapping, moving logic into packages, parity testing, risk sequencing |
+| [`utplsql`](skills/utplsql/SKILL.md) | utPLSQL v3 tests for a PL/SQL package: choosing cases from the spec, annotations, cursor comparison, safe data setup, CI runs that fail on red, and fixing failures without weakening assertions — with a [worked example](skills/utplsql/examples/README.md) recorded red → green on Oracle AI Database 26ai |
 
 They use Anthropic's Agent Skills format and plain Markdown, so they work in
 Claude Code and Claude.ai, and as knowledge files in ChatGPT, Gemini, Copilot,
